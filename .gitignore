@@ -1,0 +1,67 @@
+# Environment Variables & Secret Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+client/.env*
+server/.env*
+!.env.example
+
+# Dependency Directories
+node_modules/
+client/node_modules/
+server/node_modules/
+jspm_packages/
+
+# Production & Build Bundles
+dist/
+build/
+client/dist/
+client/build/
+server/dist/
+out/
+.vite/
+.cache/
+
+# Logs & Debug Output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# IDE & Text Editor Configuration
+.idea/
+.vscode/
+*.suo
+*.ntvsopt
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS & System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary Files
+*.tmp
+*.temp
+supabase/.temp/
